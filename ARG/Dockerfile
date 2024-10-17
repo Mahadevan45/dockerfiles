@@ -4,5 +4,5 @@ FROM almalinux:${version:-9}
 #     duration="120 hrs"
 ARG course="Devops with AWS" \
     duration="120 hrs"
-RUN echo "Course: $course, Duration:$duration"
+RUN echo "Course: $course, Duration:$duration, Version: $version"
 CMD ["sleep","100"]
